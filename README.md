@@ -2,7 +2,7 @@
     
     pip install twine setuptools wheel
     
-    python setup sdist
+    python setup.py sdist
 
     twine upload dist/package.x.x.x.tar.gz
 
